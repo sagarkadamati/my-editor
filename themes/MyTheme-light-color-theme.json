@@ -24,9 +24,10 @@
 		"badge.background": "#B58900AA",
 		"progressBar.background": "#B58900",
 
-		"dropdown.background": "#EEE8D5",
-		// "dropdown.foreground": "",
-		"dropdown.border": "#D3AF86",
+		// Dropdown
+		"dropdown.border": "#FDF6E3",
+		"dropdown.foreground": "#93a1a1",
+		"dropdown.background": "#FDF6E3",
 
 		"button.background": "#AC9D57",
 		// "button.foreground": "",
