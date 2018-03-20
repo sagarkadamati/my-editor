@@ -55,12 +55,21 @@
 
 		// Editor
 		"editor.background": "#FDF6E3",
-		// "editor.foreground": "#6688cc",
-		"editorWidget.background": "#EEE8D5",
-		"editorCursor.foreground": "#657B83",
-		"editorWhitespace.foreground": "#586E7580",
-		"editor.lineHighlightBackground": "#EEE8D5",
-		"editor.selectionBackground": "#EEE8D5",
+		"editor.foreground": "#93a1a1",
+		"editorWidget.background": "#FDF6E3",
+		"editorCursor.foreground": "#93a1a1",
+		"editorWhitespace.foreground": "#93a1a133",
+		"editor.lineHighlightBackground": "#FDF6E3",
+		"editor.selectionBackground": "#eee8d5",
+		"editor.selectionHighlightBackground": "#eee8d5",
+		"editor.inactiveSelectionBackground": "#0000FF",
+		"editor.lineHighlightBorder": "#FDF6E3",
+		"editor.findMatchBackground": "#FDF6E3",
+		"editor.findMatchHighlightBackground": "#FDF6E3",
+		"editor.findRangeHighlightBackground": "#FDF6E3",
+		"editorCursor.background": "#FDF6E3",
+		"editorWidget.border": "#eee8d5",
+
 		// "editorIndentGuide.background": "",
 		"editorHoverWidget.background": "#CCC4B0",
 		"editorActiveLineNumber.foreground": "#567983",
@@ -116,7 +125,7 @@
 
 		// Workbench: Editors
 		// "editorGroupHeader.noTabsBackground": "",
-		"editorGroup.border": "#DDD6C1",
+		"editorGroup.border": "#F9F3E2",
 		"editorGroup.background": "#FFFBF2",
 		"editorGroup.dropBackground": "#DDD6C1AA",
 		"editorGroupHeader.tabsBackground": "#D9D2C2",
