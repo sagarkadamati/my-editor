@@ -131,11 +131,11 @@
 		"activityBarBadge.foreground": "#FDF6E3",
 		
 		// Workbench: Panel
-		// "panel.background": "",
-		"panel.border": "#DDD6C1",
-		// "panelTitle.activeBorder": "",
-		// "panelTitle.activeForeground": "",
-		// "panelTitle.inactiveForeground": "",
+		"panel.border": "#FDF6E3",
+		"panel.background": "#FDF6E3",
+		"panelTitle.activeBorder": "#FDF6E3",
+		"panelTitle.activeForeground": "#93a1a1",
+		"panelTitle.inactiveForeground": "#93a1a1",
 
 		// Workbench: Side Bar
 		"sideBar.background": "#EEE8D5",
