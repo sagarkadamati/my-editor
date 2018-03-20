@@ -1,0 +1,17 @@
+{
+	"name": "theme-MyTheme",
+	"displayName": "%displayName%",
+	"description": "%description%",
+	"version": "1.0.0",
+	"publisher": "vscode",
+	"engines": { "vscode": "*" },
+	"contributes": {
+		"themes": [
+			{
+				"label": "MyTheme Light",
+				"uiTheme": "vs",
+				"path": "./themes/MyTheme-light-color-theme.json"
+			}
+		]
+	}
+}
