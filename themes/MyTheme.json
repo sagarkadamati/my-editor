@@ -7,7 +7,10 @@
 			}
 		},
 		{
-			"scope": ["meta.embedded", "source.groovy.embedded"],
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
 			"settings": {
 				"foreground": "#657B83"
 			}
@@ -437,7 +440,7 @@
 		"activityBar.dropBackground": "#EEE8D5",
 		"activityBarBadge.background": "#93a1a1",
 		"activityBarBadge.foreground": "#FDF6E3",
-		
+
 		// Workbench: Panel
 		"panel.border": "#FDF6E3",
 		"panel.background": "#FDF6E3",
