@@ -3,7 +3,7 @@
 	"colors": {
 		// Base
 		"foreground": "#93a1a1",
-		"focusBorder": "#D3AF86",
+		"focusBorder": "#eee8d5",
 		// "contrastActiveBorder": "",
 		// "contrastBorder": "",
 
