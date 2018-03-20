@@ -7,7 +7,7 @@
 		// "contrastActiveBorder": "",
 		// "contrastBorder": "",
 
-		// "widget.shadow": "",
+		"widget.shadow": "#eee8d5",
 
 		"input.foreground": "#93a1a1",
 		"input.background": "#FDF6E3",
