@@ -144,9 +144,12 @@
 		"panelTitle.inactiveForeground": "#93a1a1",
 
 		// Workbench: Side Bar
-		"sideBar.background": "#EEE8D5",
-		"sideBarTitle.foreground": "#586E75",
-		// "sideBarSectionHeader.background": "",
+		"sideBarTitle.foreground": "#6c71c4",
+		"sideBar.foreground": "#d33682",
+		"sideBar.background": "#eee8d5",
+		"sideBar.dropBackground": "#eee8d5",
+		"sideBarSectionHeader.foreground": "#d33682",
+		"sideBarSectionHeader.background": "#eee8d5",
 
 		// Workbench: Status Bar
 		"statusBar.foreground": "#586E75",
