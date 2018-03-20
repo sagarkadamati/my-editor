@@ -9,9 +9,9 @@
 
 		// "widget.shadow": "",
 
-		"input.background": "#DDD6C1",
-		// "input.border": "",
-		"input.foreground": "#586E75",
+		"input.foreground": "#93a1a1",
+		"input.background": "#FDF6E3",
+		"input.border": "#eee8d5",
 		"input.placeholderForeground": "#586E75AA",
 		"inputOption.activeBorder": "#D3AF86",
 		// "inputValidation.infoBorder": "",
