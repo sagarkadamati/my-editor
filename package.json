@@ -8,7 +8,7 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "MyTheme Light",
+				"label": "MyTheme",
 				"uiTheme": "vs",
 				"path": "./themes/MyTheme-light-color-theme.json"
 			}
