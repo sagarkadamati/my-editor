@@ -47,10 +47,11 @@
 		"list.inactiveSelectionBackground": "#F9F3E2",
 		"list.dropBackground": "#F9F3E3",
 
-		// "scrollbar.shadow": "",
-		// "scrollbarSlider.activeBackground": "",
-		// "scrollbarSlider.background": "",
-		// "scrollbarSlider.hoverBackground": "",
+		// Scrollbar
+		"scrollbar.shadow": "#eee8d500",
+		"scrollbarSlider.background": "#FDF6E3",
+		"scrollbarSlider.hoverBackground": "#FDF6E3",
+		"scrollbarSlider.activeBackground": "#FDF6E3",
 
 		// Editor
 		"editor.background": "#FDF6E3",
