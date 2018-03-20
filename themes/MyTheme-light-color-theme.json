@@ -2,7 +2,7 @@
 	"name": "MyTheme",
 	"colors": {
 		// Base
-		// "foreground": "",
+		"foreground": "#93a1a1",
 		"focusBorder": "#D3AF86",
 		// "contrastActiveBorder": "",
 		// "contrastBorder": "",
@@ -123,12 +123,12 @@
 		// "tab.inactiveForeground": "",
 
 		// Workbench: Activity Bar
-		"activityBar.background": "#DDD6C1",
-		"activityBar.foreground": "#584c27",
+		"activityBar.background": "#FDF6E3",
+		"activityBar.foreground": "#93a1a1",
 		"activityBar.dropBackground": "#EEE8D5",
-		"activityBarBadge.background": "#B58900",
-		// "activityBarBadge.foreground": "",
-
+		"activityBarBadge.background": "#93a1a1",
+		"activityBarBadge.foreground": "#FDF6E3",
+		
 		// Workbench: Panel
 		// "panel.background": "",
 		"panel.border": "#DDD6C1",
