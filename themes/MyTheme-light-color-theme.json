@@ -1,5 +1,5 @@
 {
-	"name": "MyTheme (light)",
+	"name": "MyTheme",
 	"colors": {
 		// Base
 		// "foreground": "",
@@ -171,6 +171,11 @@
 
 		// Workbench: Terminal
 		// Colors sourced from the official palette http://ethanschoonover.com/MyTheme
+		"terminal.background": "#fdf6e3",
+		"terminal.foreground": "#657b83",
+		"terminalCursor.foreground": "#657b83",
+		"terminalCursor.background": "#fdf6e3",
+
 		"terminal.ansiBlack": "#073642",
 		"terminal.ansiRed": "#dc322f",
 		"terminal.ansiGreen": "#859900",
@@ -179,14 +184,14 @@
 		"terminal.ansiMagenta": "#d33682",
 		"terminal.ansiCyan": "#2aa198",
 		"terminal.ansiWhite": "#eee8d5",
-		"terminal.ansiBrightBlack": "#586e75",
+		"terminal.ansiBrightBlack": "#657b83",
 		"terminal.ansiBrightRed": "#cb4b16",
-		"terminal.ansiBrightGreen": "#586e75",
+		"terminal.ansiBrightGreen": "#657b83",
 		"terminal.ansiBrightYellow": "#657b83",
-		"terminal.ansiBrightBlue": "#839496",
+		"terminal.ansiBrightBlue": "#93a1a1",
 		"terminal.ansiBrightMagenta": "#6c71c4",
 		"terminal.ansiBrightCyan": "#93a1a1",
-		"terminal.ansiBrightWhite": "#eee8d5"
+		"terminal.ansiBrightWhite": "#eee8d5",
 	},
 	"tokenColors": [
 		{
