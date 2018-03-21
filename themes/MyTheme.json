@@ -484,6 +484,9 @@
 		"extensionButton.prominentHoverBackground": "#584c27aa",
 
 		// Workbench: Terminal
+		"terminal.background": "#fdf6e3",
+		"terminal.foreground": "#657b83",
+
 		"terminal.ansiBlack": "#073642",
 		"terminal.ansiRed": "#dc322f",
 		"terminal.ansiGreen": "#859900",
