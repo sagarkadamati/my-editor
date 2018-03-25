@@ -3,7 +3,7 @@
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#657B83"
+				"foreground": "#93a1a1bb"
 			}
 		},
 		{
@@ -20,7 +20,7 @@
 			"scope": "comment",
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#93A1A1"
+				"foreground": "#93a1a1bb"
 			}
 		},
 		{
@@ -379,7 +379,7 @@
 		"editorSuggestWidget.border": "#eee8d5",
 		"editorSuggestWidget.background": "#eee8d5",
 		"editorSuggestWidget.foreground": "#93a1a1",
-		"editorSuggestWidget.highlightForeground": "#FDF6E3",
+		"editorSuggestWidget.highlightForeground": "#93a1a1",
 		"editorSuggestWidget.selectedBackground": "#FDF6E3",
 
 		// Editor: Peek View
