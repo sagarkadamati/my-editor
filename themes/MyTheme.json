@@ -383,11 +383,11 @@
 		"editorSuggestWidget.selectedBackground": "#FDF6E3",
 
 		// Editor: Peek View
+		"peekView.border": "#EEE8D5",
+		"peekViewTitle.background": "#EEE8D5",
+		"peekViewEditor.background": "#EEE8D5",
+		"peekViewEditor.matchHighlightBackground": "#FDF6E3",
 		"peekViewResult.background": "#EEE8D5",
-		"peekViewEditor.background": "#fffbf2",
-		"peekViewTitle.background": "#00FF00",
-		"peekView.border": "#b58900",
-		"peekViewEditor.matchHighlightBackground": "#7744AA40",
 		// "peekViewResult.lineForeground": "",
 		// "peekViewResult.selectionBackground": "",
 		// "peekViewResult.selectionForeground": "",
