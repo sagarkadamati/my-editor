@@ -409,7 +409,7 @@
 		// "titleBar.inactiveForeground": "",
 
 		// Workbench: Editors
-		"editorGroup.border": "#eee8d5",
+		"editorGroup.border": "#FDF6E3",
 		"editorGroup.background": "#eee8d5",
 		"editorGroup.dropBackground": "#DDD6C1AA",
 		"editorGroupHeader.tabsBackground": "#eee8d5",
