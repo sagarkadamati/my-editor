@@ -47,20 +47,6 @@
 			}
 		},
 		{
-			"name": "Regexp",
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#D30102"
-			}
-		},
-		{
-			"name": "Number",
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#D33682"
-			}
-		},
-		{
 			"name": "Variable",
 			"scope": [
 				"variable.name",
@@ -71,6 +57,34 @@
 			],
 			"settings": {
 				"foreground": "#657b83"
+			}
+		},
+		{
+			"scope": [
+				"constant",
+				"constant.character",
+				"constant.character.escape",
+				"constant.numeric",
+				"constant.numeric.integer",
+				"constant.numeric.float",
+				"constant.numeric.hex",
+				"constant.numeric.octal",
+				"constant.regexp",
+				"constant.rgb-value",
+				"constant.other"
+			],
+			"settings": {
+				"foreground": "#657b83"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": [
+				"constant.language",
+				"meta.preprocessor"
+			],
+			"settings": {
+				"foreground": "#B58900"
 			}
 		},
 		{
@@ -106,27 +120,46 @@
 		},
 		{
 			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#073642"
-			}
-		},
-		{
-			"name": "Class name",
 			"scope": [
-				"entity.name.class",
-				"entity.name.type"
+				"storage",
+				"storage.modifier",
+				"storage.type"
 			],
 			"settings": {
-				"foreground": "#268BD2"
+				"fontStyle": "bold",
+				"foreground": "#657b83"
 			}
 		},
 		{
-			"name": "Function name",
-			"scope": "entity.name.function",
+			"scope": [
+				"support",
+				"support.class",
+				"support.constant",
+				"support.function",
+				"support.other",
+				"support.type",
+				"support.type.property-name"
+			],
 			"settings": {
-				"foreground": "#268BD2"
+				"foreground": "#657b83"
+			}
+		},
+		{
+			"scope": "support.variable",
+			"settings": {
+				"foreground": "#d33682"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+				"punctuation.separator",
+				"punctuation.separator.continuation",
+				"punctuation.terminator"
+			],
+			"settings": {
+				"foreground": "#93a1a1"
 			}
 		},
 		{
@@ -147,13 +180,26 @@
 			}
 		},
 		{
-			"name": "Built-in constant",
+			"scope": "strong",
+			"settings": {
+				"foreground": "#657b83"
+			}
+		},
+		{
+			"name": "Class name",
 			"scope": [
-				"constant.language",
-				"meta.preprocessor"
+				"entity.name.class",
+				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#B58900"
+				"foreground": "#268BD2"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#268BD2"
 			}
 		},
 		{
@@ -164,16 +210,6 @@
 			],
 			"settings": {
 				"foreground": "#D30102"
-			}
-		},
-		{
-			"name": "User-defined constant",
-			"scope": [
-				"constant.character",
-				"constant.other"
-			],
-			"settings": {
-				"foreground": "#CB4B16"
 			}
 		},
 		{
@@ -215,13 +251,6 @@
 			"scope": "support.function",
 			"settings": {
 				"foreground": "#268BD2"
-			}
-		},
-		{
-			"name": "Continuation",
-			"scope": "punctuation.separator.continuation",
-			"settings": {
-				"foreground": "#D30102"
 			}
 		},
 		{
@@ -335,72 +364,6 @@
 			"settings": {
 				"fontStyle": "",
 				"foreground": "#268BD2"
-			}
-		},
-		{
-			"scope": "constant",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.character",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.character.escape",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.numeric",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.numeric.float",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.numeric.hex",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.numeric.integer",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.numeric.octal",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.other",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.regexp",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "constant.rgb-value",
-			"settings": {
-				"foreground": "#657b83"
 			}
 		},
 		{
@@ -665,108 +628,6 @@
 			"scope": "meta.type.annotation",
 			"settings": {
 				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "punctuation.definition.string.begin",
-			"settings": {
-				"foreground": "#93a1a1"
-			}
-		},
-		{
-			"scope": "punctuation.definition.string.end",
-			"settings": {
-				"foreground": "#93a1a1"
-			}
-		},
-		{
-			"scope": "punctuation.separator",
-			"settings": {
-				"foreground": "#93a1a1"
-			}
-		},
-		{
-			"scope": "punctuation.separator.continuation",
-			"settings": {
-				"foreground": "#93a1a1"
-			}
-		},
-		{
-			"scope": "punctuation.terminator",
-			"settings": {
-				"foreground": "#93a1a1"
-			}
-		},
-		{
-			"scope": "storage",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "storage.modifier",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "storage.type",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "strong",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "support",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "support.class",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "support.constant",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "support.function",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "support.other",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "support.type",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "support.type.property-name",
-			"settings": {
-				"foreground": "#657b83"
-			}
-		},
-		{
-			"scope": "support.variable",
-			"settings": {
-				"foreground": "#d33682"
 			}
 		}
 	],
