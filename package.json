@@ -1,5 +1,5 @@
 {
-	"name": "MyTheme",
+	"name": "my-extension",
 	"displayName": "%displayName%",
 	"description": "%description%",
 	"version": "1.0.0",
@@ -10,9 +10,21 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "MyTheme",
+				"label": "My Theme Light",
 				"uiTheme": "vs",
 				"path": "./themes/MyTheme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "file-icons",
+				"label": "My Icons",
+				"path": "./icons/file-icons-icon-theme.json"
+			},
+			{
+				"id": "file-icons-colourless",
+				"label": "My Icons (Colourless)",
+				"path": "./icons/file-icons-colourless-icon-theme.json"
 			}
 		]
 	}
