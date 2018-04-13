@@ -544,7 +544,7 @@ table tr {
 }
 
 table tr:nth-child(2n) {
-    background-color: #eee8d5;
+    background-color: #fdf6e3;
 }
 
 img {
@@ -598,9 +598,9 @@ pre {
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
-    background-color: #eee8d5;
+    background-color: #fdf6e3;
     border-radius: 0.5em;
-    box-shadow: #eee8d5 0 0 0;
+    box-shadow: #fdf6e3 0 0 0;
 }
 
 pre code {
@@ -724,17 +724,17 @@ body {
 
 .vscode-light pre:not(.hljs),
 .vscode-light code>div {
-    background-color: #eee8d5;
+    background-color: #fdf6e3;
 }
 
 .vscode-dark pre:not(.hljs),
 .vscode-dark code>div {
-    background-color: #eee8d5;
+    background-color: #fdf6e3;
 }
 
 .vscode-high-contrast pre:not(.hljs),
 .vscode-high-contrast code>div {
-    background-color: #eee8d5;
+    background-color: #fdf6e3;
 }
 
 .vscode-high-contrast h1 {
