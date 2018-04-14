@@ -1,8 +1,8 @@
 {
 	"name": "my-extension",
-	"displayName": "%displayName%",
-	"description": "%description%",
 	"version": "1.0.0",
+	"displayName": "VS Code Extension",
+	"description": "This extension updates VS Code as per my taste",
 	"publisher": "vscode",
 	"engines": {
 		"vscode": "*"
@@ -10,9 +10,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "My Theme Light",
+				"label": "Day Time",
 				"uiTheme": "vs",
-				"path": "./themes/MyTheme.json"
+				"path": "./themes/MyThemeDay.json"
+			},
+			{
+				"label": "Night Time",
+				"uiTheme": "vs-dark",
+				"path": "./themes/MyThemeNight.json"
 			}
 		],
 		"iconThemes": [
