@@ -10,6 +10,11 @@
 	"contributes": {
 		"themes": [
 			{
+				"label": "Bright Time",
+				"uiTheme": "vs",
+				"path": "./themes/MyThemeBright.json"
+			},
+			{
 				"label": "Day Time",
 				"uiTheme": "vs",
 				"path": "./themes/MyThemeDay.json"
@@ -31,9 +36,6 @@
 				"label": "My Icons (Colourless)",
 				"path": "./icons/file-icons-colourless-icon-theme.json"
 			}
-		],
-		"markdown.previewStyles": [
-			"./css/markdown.css"
 		]
 	}
 }
