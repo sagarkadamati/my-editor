@@ -661,19 +661,19 @@
 		"dropdown.background": "#FDF6E3",
 		"dropdown.foreground": "#93a1a1",
 
-		"list.activeSelectionBackground": "#F9F3E200",
-		"list.activeSelectionForeground": "#268bd2",
-		"list.focusBackground": "#F9F3E2",
+		"list.activeSelectionBackground": "#F9F3E2",
+		"list.activeSelectionForeground": "#268BD2",
+		"list.inactiveFocusBackground": "#EEE8D5",
+		"list.inactiveFocusForeground": "#F9F3E2",
+		"list.focusBackground": "#EEE8D5",
 		"list.focusForeground": "#93a1a1",
 		"list.hoverBackground": "#F9F3E2",
 		"list.hoverForeground": "#073642",
-		"list.inactiveFocusBackground": "#eee8d5",
-		"list.inactiveFocusForeground": "#F9F3E2",
 		"list.highlightBackground": "#eee8d5",
 		"list.highlightForeground": "#93a1a1",
 		"list.inactiveSelectionBackground": "#F9F3E2",
 		"list.inactiveSelectionForeground": "#93a1a1",
-		"list.dropBackground": "#F9F3E3",
+		"list.dropBackground": "#EEE8D5",
 
 		// Scrollbar
 		"scrollbar.shadow": "#eee8d500",
@@ -740,8 +740,8 @@
 		"diffEditor.insertedTextBorder": "#eee8d5",
 
 		// Workbench: Title
-		"titleBar.activeBackground": "#EEE8D5",
-		// "titleBar.activeForeground": "",
+		"titleBar.activeBackground": "#fdf6e3",
+		"titleBar.activeForeground": "#657b83",
 		// "titleBar.inactiveBackground": "",
 		// "titleBar.inactiveForeground": "",
 
@@ -775,11 +775,12 @@
 
 		// Workbench: Side Bar
 		"sideBarTitle.foreground": "#6c71c4",
-		"sideBar.foreground": "#d33682",
-		"sideBar.background": "#eee8d5",
-		"sideBar.dropBackground": "#eee8d5",
+		"sideBar.dropBackground": "#fdf6e3",
+		"sideBar.background": "#fdf6e3",
+		"sideBar.foreground": "#657b83",
+		"sideBarSectionHeader.background": "#fdf6e3",
 		"sideBarSectionHeader.foreground": "#d33682",
-		"sideBarSectionHeader.background": "#eee8d5",
+		// "sideBar.border": "#eee8d5",
 
 		// Workbench: Status Bar
 		"statusBar.foreground": "#657b83CC",
@@ -807,6 +808,27 @@
 		// Extensions
 		"extensionButton.prominentBackground": "#b58900",
 		"extensionButton.prominentHoverBackground": "#584c27aa",
+
+		// Workbench: Over view Ruler
+		"editorOverviewRuler.border": "#fdf6e3",
+		"editorOverviewRuler.addedForeground": "#fdf6e3",
+		"editorOverviewRuler.bracketMatchForeground": "#fdf6e3",
+		"editorOverviewRuler.commonContentForeground": "#fdf6e3",
+		"editorOverviewRuler.currentContentForeground": "#fdf6e3",
+		"editorOverviewRuler.deletedForeground": "#fdf6e3",
+		"editorOverviewRuler.incomingContentForeground": "#fdf6e3",
+		"editorOverviewRuler.infoForeground": "#fdf6e3",
+		"editorOverviewRuler.modifiedForeground": "#fdf6e3",
+		"editorOverviewRuler.rangeHighlightForeground": "#fdf6e3",
+		"editorOverviewRuler.selectionHighlightForeground": "#fdf6e3",
+		"editorOverviewRuler.warningForeground": "#fdf6e3",
+		"editorOverviewRuler.wordHighlightForeground": "#fdf6e3",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#fdf6e3",
+
+		"editorOverviewRuler.findMatchForeground": "#fdf6e3",
+		"editorOverviewRuler.errorForeground": "#fdf6e3",
+
+		// "inputOption.activeBorder": "#fdf6e3",
 
 		// Workbench: Terminal
 		"terminal.background": "#fdf6e3",

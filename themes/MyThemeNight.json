@@ -663,9 +663,9 @@
 
 		"list.activeSelectionBackground": "#002b36",
 		"list.activeSelectionForeground": "#93a1a1",
-		"list.focusBackground": "#002b36",
+		"list.focusBackground": "#073642",
 		"list.focusForeground": "#93a1a1",
-		"list.hoverBackground": "#002b36",
+		"list.hoverBackground": "#073642",
 		"list.hoverForeground": "#93a1a1",
 		"list.inactiveFocusBackground": "#073642",
 		"list.inactiveFocusForeground": "#F9F3E2",
@@ -740,8 +740,8 @@
 		"diffEditor.insertedTextBorder": "#073642",
 
 		// Workbench: Title
-		"titleBar.activeBackground": "#073642",
-		// "titleBar.activeForeground": "",
+		"titleBar.activeBackground": "#002b36",
+		"titleBar.activeForeground": "#93a1a1",
 		// "titleBar.inactiveBackground": "",
 		// "titleBar.inactiveForeground": "",
 
@@ -774,12 +774,12 @@
 		"panelTitle.inactiveForeground": "#93a1a1",
 
 		// Workbench: Side Bar
+		"sideBar.background": "#002b36",
+		"sideBar.foreground": "#93a1a1",
 		"sideBarTitle.foreground": "#6c71c4",
-		"sideBar.foreground": "#d33682",
-		"sideBar.background": "#073642",
 		"sideBar.dropBackground": "#073642",
+		"sideBarSectionHeader.background": "#93a1a1",
 		"sideBarSectionHeader.foreground": "#d33682",
-		"sideBarSectionHeader.background": "#073642",
 
 		// Workbench: Status Bar
 		"statusBar.foreground": "#93a1a1CC",
@@ -807,6 +807,27 @@
 		// Extensions
 		"extensionButton.prominentBackground": "#b58900",
 		"extensionButton.prominentHoverBackground": "#584c27aa",
+
+		// Workbench: Over view Ruler
+		"editorOverviewRuler.border": "#002b36",
+		"editorOverviewRuler.addedForeground": "#002b36",
+		"editorOverviewRuler.bracketMatchForeground": "#002b36",
+		"editorOverviewRuler.commonContentForeground": "#002b36",
+		"editorOverviewRuler.currentContentForeground": "#002b36",
+		"editorOverviewRuler.deletedForeground": "#002b36",
+		"editorOverviewRuler.incomingContentForeground": "#002b36",
+		"editorOverviewRuler.infoForeground": "#002b36",
+		"editorOverviewRuler.modifiedForeground": "#002b36",
+		"editorOverviewRuler.rangeHighlightForeground": "#002b36",
+		"editorOverviewRuler.selectionHighlightForeground": "#002b36",
+		"editorOverviewRuler.warningForeground": "#002b36",
+		"editorOverviewRuler.wordHighlightForeground": "#002b36",
+		"editorOverviewRuler.wordHighlightStrongForeground": "#002b36",
+
+		"editorOverviewRuler.findMatchForeground": "#002b36",
+		"editorOverviewRuler.errorForeground": "#002b36",
+
+		// "inputOption.activeBorder": "#ff0000",
 
 		// Workbench: Terminal
 		"terminal.background": "#002b36",
